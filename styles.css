@@ -5,13 +5,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Karla", sans-serif;
     background-color:white;
 }
 
 .container {
     background-color:white;
-    border: 5px solid silver;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -27,7 +26,8 @@ body {
 
 .header h1 {
     font-size: 40px;
-    color: #19b775;
+    color: #29b4b1;
+    padding-top: 20px;
 }
 
 .header p {
@@ -37,10 +37,11 @@ body {
 }
 
 .header article{
-    color: rgb(113, 114, 114);
+    color: #c3c5cf;
     font-size: 25px;
     padding: 20px 0;
     line-height: 40px;
+    font-weight: 700;
 }
 .pricing{
     display: flex;
@@ -49,8 +50,9 @@ body {
     width:100%;
 }
 .pricing #subscription {
-background-color: #0d9463;
+background-color:#29b4b1;
 width: 50%;
+height: 55vh;
 padding-left:80px;
 display: flex;
 justify-content: center;
@@ -73,11 +75,11 @@ flex-direction: column;
 }
 .pricing #subscription .fee{
     font-size: 25px;
-    color: #8da7a7;
+    color: #ccdddd;
     padding-left: 30px;
 }
 .pricing #subscription article {
-    color: #a3a6a6;
+    color: #bbc8c8;
     font-size: 25px;
     font-weight: 600;
     padding-bottom: 45px;
@@ -85,19 +87,21 @@ flex-direction: column;
 .pricing button {
     background-color: #bfdf32;
     color: white;
-    font-family:  Arial, sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 25px;
     font-weight: 700;
     padding: 15px 150px;
     border: none;
     border-radius: 6px;
     box-shadow: 10px 5px 30px 0px rgb(28, 22, 22);
+    cursor: pointer;
 }
 
 
 .pricing #why-us{
-    background-color:#20b177;
+    background-color:#48bfbd;
     width: 50%;
+    height: 55vh;
     padding-left:90px;
     display: flex;
     justify-content: center;
